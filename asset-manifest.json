@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07b60d26.css",
+    "main.js": "/static/js/main.7bdec0a4.js",
+    "static/js/453.f262bf0d.chunk.js": "/static/js/453.f262bf0d.chunk.js",
+    "static/media/rectangle22.png": "/static/media/rectangle22.8116049c8947476af94f.png",
+    "static/media/rectangle23.png": "/static/media/rectangle23.4cabc785513a23224da7.png",
+    "static/media/rectangle24.png": "/static/media/rectangle24.fb9a776da8280f46ae74.png",
+    "static/media/patrikcolor.png": "/static/media/patrikcolor.6dbf6a9a0f895e2cae59.png",
+    "static/media/sneakers.png": "/static/media/sneakers.e268027a40a8589b448c.png",
+    "static/media/cartboot.png": "/static/media/cartboot.3d8f57abd80e5be610bc.png",
+    "static/media/bball.png": "/static/media/bball.cc7020c0eddaa31d4807.png",
+    "static/media/cardigan.png": "/static/media/cardigan.78d428cee6592ac28b46.png",
+    "static/media/99heels.png": "/static/media/99heels.a37315ab21ba04bd7d37.png",
+    "static/media/loafers.png": "/static/media/loafers.4e4e23096ca9530cca3f.png",
+    "static/media/jeanjacket.png": "/static/media/jeanjacket.216fd0aa500233b79ea2.png",
+    "static/media/airforcehigh.png": "/static/media/airforcehigh.3d545a3dc5969646a918.png",
+    "static/media/dunklow.png": "/static/media/dunklow.21b06e827ef863a85aed.png",
+    "static/media/vans.png": "/static/media/vans.8b1390e165d587b2c325.png",
+    "static/media/tigerskinheels.png": "/static/media/tigerskinheels.6cb65fea25d588661f9b.png",
+    "static/media/brownheels.png": "/static/media/brownheels.4ed72fc22d8f883fb601.png",
+    "static/media/adidassamba.png": "/static/media/adidassamba.257fa584f9a3650380f0.png",
+    "index.html": "/index.html",
+    "main.07b60d26.css.map": "/static/css/main.07b60d26.css.map",
+    "main.7bdec0a4.js.map": "/static/js/main.7bdec0a4.js.map",
+    "453.f262bf0d.chunk.js.map": "/static/js/453.f262bf0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07b60d26.css",
+    "static/js/main.7bdec0a4.js"
+  ]
+}
