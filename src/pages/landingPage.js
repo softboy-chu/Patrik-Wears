@@ -16,7 +16,7 @@ import club99heels from '../assets/images/99heels.png'
 import patrikColor from '../assets/images/patrikcolor.png'
 import sneakers from '../assets/images/sneakers.png'
 import sweater from '../assets/images/cardigan.png'
-import jacket from '../assets/images/jeanjacket.png'
+import jacket from '../assets/images/jeanjacket.png';
 
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
         <div>
           <img src={imageThree} alt='image of a model sitting on the floor' className='hidden md:block lg:block'/>
         </div>
-        <div className='absolute top-80 md:top-96 lg:top-96 left-10 bg-black bg-opacity-50 text-white w-4/5'>
+        <div className='p-3 absolute top-80 md:top-56 lg:top-80 left-10 bg-black bg-opacity-50 text-white w-4/5'>
         <div>
           <p>MAINTAIN YOUR STEEZ AND COMPOSURE</p>
         </div>

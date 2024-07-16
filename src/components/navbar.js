@@ -5,6 +5,8 @@ import shape from '../assets/images/shape.png';
 import like from '../assets/images/like.png';
 import cart from '../assets/images/cart.png';
 import menubtn from '../assets/images/menbutton.png';
+import { Link } from 'react-router-dom';
+import SearchBox from './searchBox/searchBar';
 
 function Portal({ children }) {
   return ReactDOM.createPortal(children, document.body);
@@ -18,7 +20,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className='flex flex-row items-center justify-between m-6'>
+    <div className='fixed w-full bg-white top-0 z-50 shadow-md'>
+        <div className='flex flex-row items-center justify-between m-6 '>
       <div className='block bg-black'>
         <p className='text-white text-xl p-4 font-bold text-center'>Patrik Wears</p>
       </div>
@@ -42,8 +45,9 @@ export default function Navbar() {
       </div>
 
       <div className='rounded-full p-5 flex flex-row items-center justify-between gap-4 hidden lg:flex '>
-        <div className='flex flex-row bg-gray-100 p-5'>
-          <input className='bg-gray-100 hidden md:flex lg:flex' placeholder='Search'/>
+        <div className='flex flex-row bg-gray-100 items-center'>
+          {/* <input className='bg-gray-100 hidden md:flex lg:flex p-4' placeholder='Search'/> */}
+          <SearchBox />
           <div>
             <a href=''>
               <img src={search} alt='search-icon'/>
@@ -58,13 +62,15 @@ export default function Navbar() {
         </div>
 
         <div>
-          <a href=''>
+          <Link to='/cart'>
+          <button>
             <img src={like} alt='like-icon'/>
-          </a>
+          </button>
+          </Link>
         </div>
 
         <div>
-          <a href=''>
+          <a href='./cart'>
             <img src={cart} alt='cart-icon'/>
           </a>
         </div>
@@ -79,14 +85,11 @@ export default function Navbar() {
       {isVisible && (
         <Portal>
           <div className='fixed top-0 left-0 w-1/2 h-full bg-white z-50 flex flex-col items-center'>
-            <button onClick={toggleVisibility} className='self-end m-4'>
-              Close
-            </button>
-            <div>
-              <input className='bg-gray-100 hidden md:flex lg:flex' placeholder='Search'/>
+            <div className=''>
+              
             </div>
             <div className='p-4'>
-              <a href='./home'>
+              <a href='./'>
                 <p>Home</p>
               </a>
             </div>
@@ -106,7 +109,7 @@ export default function Navbar() {
               </a>
             </div>
             <div className='p-4'>
-              <a href='./ads'>
+              <a href='./flashprice'>
                 <p>Flash</p>
               </a>
             </div>
@@ -118,6 +121,7 @@ export default function Navbar() {
           </div>
         </Portal>
       )}
+    </div>
     </div>
   );
 }

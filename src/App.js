@@ -9,6 +9,7 @@ import PlacedOrder from './pages/placedOrder';
 import LandingPageWomen from './pages/landingPageWomen';
 import LandingPageChildren from './pages/landingPageChildren';
 import FlashSale from './pages/flashSale';
+import Products from './components/products';
 
 function App() {
   return (
@@ -23,8 +24,10 @@ function App() {
         <Route exact path = '/children' element = {<LandingPageChildren/>}/>
         <Route exact path = '/flashsale' element = {<FlashSale/>}/>
         <Route exact path = '/order' element = {<PlacedOrder/>}/>
+        <Route exact path = '/products' element = {<Products/>}/>
       </Routes>
     </Router>
+
     </>
   );
 }

@@ -10,7 +10,9 @@ import sizeButton from '../assets/images/sizebutton.png'
 import decerement from '../assets/images/decrement.png'
 import increment from '../assets/images/increment.png'
 // import size from '../components/size'
-import Size from '../components/size'
+import Size from '../components/shoesize'
+import Color from '../components/shoecolor'
+import { Link } from 'react-router-dom'
 
 export default function Cart() {
 
@@ -20,15 +22,25 @@ export default function Cart() {
     setShoeSize(prevState => !prevState);
   };
 
-  // const closeShoeSize = () => {
-  //   setShoeSize(false);
-  // };
+  const [shoeColor, setShoeColor] = useState(false);
+  const showShoeSize = () => {
+    setShoeColor(prevState => !prevState)
+  }
 
+  const [count, setCount] = useState(0);
+  const increaseCount = () => {
+    setCount(count + 1)
+  }
+
+  const decreaseCount = () => {
+    setCount(count - 1)
+  }
+  
   return (
     <div>
       <div className='flex flex-row justify-between items-center bg-gray-100 p-3 m-4'>
         <div>
-          <a href='./home'>
+          <a href='./'>
             <img src = {leftarrow} alt='a navigation button'/>
           </a>
         </div>
@@ -36,9 +48,9 @@ export default function Cart() {
           <p>Patrik Wears</p>
         </div>
         <div>
-          <a href='./search'>
+          <button>
             <img src = {searchbutton} alt='a navigation button'/>
-          </a>
+          </button>
         </div>
       </div>
 
@@ -66,7 +78,7 @@ export default function Cart() {
             <p className='text-justify'>Step into the future with our Extreme Oxford shoes, designed exclusively for the bold and stylish Gen Z. Crafted with a perfect blend of traditional elegance and modern flair, these shoes feature premium leather uppers and a unique chunky sole that provides both comfort and a contemporary edge. Available in an array of vibrant colors, the Extreme Oxford is your go-to choice for making a statement at any event. </p>
           </div>
 
-          <div className='flex flex-row gap-2 justify-center items-center'>
+          <div className='flex flex-row gap-2 justify-start items-center'>
             <div>
               <img src= {rating} alt='rating for products purchased'/>
             </div>
@@ -75,7 +87,7 @@ export default function Cart() {
             </div>
           </div>
 
-          <div className='flex flex-row justify-center'>
+          <div className='flex flex-row justify-start'>
             <p className='font-bold'>&#8358;65000</p>
           </div>
 
@@ -107,10 +119,10 @@ export default function Cart() {
           </div>
           <div className='flex flex-row gap-5'>
             <div>
-              <p>Artctic Brown</p>
+              {shoeColor && <Color/>}
             </div>
             <div>
-              <button>
+              <button onClick={showShoeSize}>
                 <img src={sizeButton} alt='size toggle button'/>
               </button>
             </div>
@@ -122,19 +134,18 @@ export default function Cart() {
             <p>Quantity</p>
           </div>
 
-          <div className='bg-[#E8E8E8] rounded-2xl flex flex-row items-center gap-8 p-2 grow-0'>
+          <div className='bg-[#E8E8E8] rounded-2xl flex flex-row  gap-8 p-2 grow-0'>
             <div>
-              <button>
+              <button onClick={decreaseCount}>
                 <img src = {decerement} alt='decrement'/>
               </button>
             </div>
             <div>
-              <button>
-                <p>1</p>
-              </button>
+              <p>{count}</p>
             </div>
+
             <div>
-              <button>
+              <button  onClick={increaseCount}>
                 <img src = {increment} alt='increment button'/>
               </button>
             </div>
@@ -143,9 +154,11 @@ export default function Cart() {
 
         <div className='m-4'>
           <div className='gradient bg-[#FCDDEC] p-4 rounded-full text-center'>
-            <a href='./checkout'>
+            <Link to='/checkout'>
+            <button>
               <p>Add to cart</p>
-            </a>
+            </button>
+            </Link>
           </div>
         </div>
 
