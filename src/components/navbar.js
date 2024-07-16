@@ -6,7 +6,7 @@ import like from '../assets/images/like.png';
 import cart from '../assets/images/cart.png';
 import menubtn from '../assets/images/menbutton.png';
 import { Link } from 'react-router-dom';
-import SearchBox from './searchBox/searchBar';
+// import SearchBox from './searchBox/searchBar';
 
 function Portal({ children }) {
   return ReactDOM.createPortal(children, document.body);
@@ -47,7 +47,7 @@ export default function Navbar() {
       <div className='rounded-full p-5 flex flex-row items-center justify-between gap-4 hidden lg:flex '>
         <div className='flex flex-row bg-gray-100 items-center'>
           {/* <input className='bg-gray-100 hidden md:flex lg:flex p-4' placeholder='Search'/> */}
-          <SearchBox />
+          {/* <SearchBox /> */}
           <div>
             <a href=''>
               <img src={search} alt='search-icon'/>
