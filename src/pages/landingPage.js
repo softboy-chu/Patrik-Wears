@@ -21,7 +21,7 @@ import jacket from '../assets/images/jeanjacket.png';
 export default function Home() {
   return (
     <div>
-      <div className='bg-black text-white text-center p-3'>
+      <div className='bg-black text-white text-center p-3 relative mt-24'>
         <p>FREE SHIPMENT IF YOU PURCHASE TODAY</p>
       </div>
       <div><Navbar /></div>
@@ -30,15 +30,15 @@ export default function Home() {
       </div>
       <div className='md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 gap-0 relative'>
         <div>
-          <img src={imageOne} alt='image of a black model' className=''/>
+          <img src={imageOne} alt='' className=''/>
         </div>
         <div>
-          <img src={imageTwo} alt='image of a brown chelsea boot' className='hidden md:block lg:block'/>
+          <img src={imageTwo} alt='' className='hidden md:block lg:block'/>
         </div>
         <div>
-          <img src={imageThree} alt='image of a model sitting on the floor' className='hidden md:block lg:block'/>
+          <img src={imageThree} alt='' className='hidden md:block lg:block'/>
         </div>
-        <div className='p-3 absolute top-80 md:top-56 lg:top-80 left-10 bg-black bg-opacity-50 text-white w-4/5'>
+        <div className='p-3 absolute top-72 md:top-56 lg:top-80 left-10 bg-black bg-opacity-50 text-white w-4/5'>
         <div>
           <p>MAINTAIN YOUR STEEZ AND COMPOSURE</p>
         </div>
@@ -64,13 +64,13 @@ export default function Home() {
 
       <div className='m-2 mt-5 flex flex-row justify-center gap-2'>
         <div>
-          <a href='' className='px-3 py-1.5 text-white bg-black'>New Arrivals</a>
+          <a href='./' className='px-3 py-1.5 text-white bg-black'>New Arrivals</a>
         </div>
         <div>
-          <a href='' className='px-3 py-1.5 text-black bg-gray-200'>Retro Stock</a>
+          <a href='./' className='px-3 py-1.5 text-black bg-gray-200'>Retro Stock</a>
         </div>
         <div>
-          <a href='' className='px-3 py-1.5 text-black bg-gray-200'>Best Sellers</a>
+          <a href='./' className='px-3 py-1.5 text-black bg-gray-200'>Best Sellers</a>
         </div>
       </div>
 
@@ -78,7 +78,7 @@ export default function Home() {
         <div className='bg-gray-100'>
           <div className='flex flex-col justify-center items-center'>
           <a href='./cart'>
-          <img src={loafers}/>
+          <img src={loafers} alt=''/>
           </a>
           </div>
           <div>
@@ -92,18 +92,18 @@ export default function Home() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function Home() {
         <div className='bg-gray-100'>
           <div className='flex flex-col justify-center items-center'>
           <a href='./cart'>
-          <img src={stilletto}/>
+          <img src={stilletto} alt=''/>
           </a>
           </div>
           <div>
@@ -125,25 +125,25 @@ export default function Home() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>
 
         <div className='bg-gray-100'>
           <div className='flex flex-col justify-center items-center'>
-          <a href='./cart'><img src={heels}/></a>
+          <a href='./cart'><img src={heels} alt=''/></a>
           </div>
           <div>
             <p>Club 99 Heels</p>
@@ -156,18 +156,18 @@ export default function Home() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>
@@ -187,18 +187,18 @@ export default function Home() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>
@@ -206,7 +206,7 @@ export default function Home() {
 
       <div className='m-2 mt-5 flex flex-row justify-center gap-2'>
         <div>
-          <a href='' className='px-3 py-1.5 text-black bg-gray-200'>New Arrivals</a>
+          <a href='./' className='px-3 py-1.5 text-black bg-gray-200'>New Arrivals</a>
         </div>
         <div>
           <a href='' className='px-3 py-1.5 text-white bg-black'>Retro Stock</a>
@@ -219,7 +219,7 @@ export default function Home() {
       <div className='flex flex-col md:grid md:grid-cols-4 m-8 gap-3'>
         <div className='bg-gray-100'>
           <div className='flex flex-col justify-center items-center'>
-          <img src={loafers}/>
+          <img src={loafers} alt=''/>
           </div>
           <div>
             <p>Club 99 Heels</p>
@@ -232,18 +232,18 @@ export default function Home() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>
@@ -263,25 +263,25 @@ export default function Home() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>
 
         <div className='bg-gray-100'>
           <div className='flex flex-col justify-center items-center'>
-          <img src={heels}/>
+          <img src={heels} alt=''/>
           </div>
           <div>
             <p>Club 99 Heels</p>
@@ -294,25 +294,25 @@ export default function Home() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>
 
         <div className='bg-gray-100'>
           <div className='flex flex-col justify-center items-center'>
-          <img src={club99heels}/>
+          <img src={club99heels} alt=''/>
           </div>
           <div>
             <p>Club 99 Heels</p>
@@ -325,18 +325,18 @@ export default function Home() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>
@@ -357,7 +357,7 @@ export default function Home() {
       <div className='flex flex-col md:grid md:grid-cols-4 m-8 gap-3'>
         <div className='bg-gray-100 p-2'>
           <div className='flex flex-col justify-center items-center'>
-          <img src={patrikColor}/>
+          <img src={patrikColor} alt=''/>
           </div>
           <div>
             <p>EXPLORE PATRIKCOLOR</p>
@@ -367,17 +367,17 @@ export default function Home() {
           </div>
           <div className='flex flex-row justify-between'>
             <div>
-              <a href='' className='underline'>SHOP NOW</a>
+              <a href='./' className='underline'>SHOP NOW</a>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
         </div>
 
         <div className='bg-gray-100 p-2'>
           <div className='flex flex-col justify-center items-center'>
-          <img src={sneakers}/>
+          <img src={sneakers} alt=''/>
           </div>
           <div>
             <p>EXPLORE PATRIKCOLOR</p>
@@ -387,17 +387,17 @@ export default function Home() {
           </div>
           <div className='flex flex-row justify-between'>
             <div>
-              <a href='' className='underline'>SHOP NOW</a>
+              <a href='./' className='underline'>SHOP NOW</a>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
         </div>
 
         <div className='bg-gray-100 p-2'>
           <div className='flex flex-col justify-center items-center'>
-          <img src={sweater}/>
+          <img src={sweater} alt=''/>
           </div>
           <div>
             <p>EXPLORE PATRIKCOLOR</p>
@@ -407,17 +407,17 @@ export default function Home() {
           </div>
           <div className='flex flex-row justify-between'>
             <div>
-              <a href='' className='underline'>SHOP NOW</a>
+              <a href='./' className='underline'>SHOP NOW</a>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
         </div>
 
         <div className='bg-gray-100 p-2'>
           <div className='flex flex-col justify-center items-center'>
-          <img src={jacket}/>
+          <img src={jacket} alt=''/>
           </div>
           <div>
             <p>EXPLORE PATRIKCOLOR</p>
@@ -427,10 +427,10 @@ export default function Home() {
           </div>
           <div className='flex flex-row justify-between'>
             <div>
-              <a href='' className='underline'>SHOP NOW</a>
+              <a href='./' className='underline'>SHOP NOW</a>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
         </div>

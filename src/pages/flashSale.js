@@ -73,7 +73,7 @@ export default function FlashSale() {
             <p>Ready to shop amazing wears at gbanjo sales? You can’t get this price anywhere else! </p>
           </div>
           <div>
-            <button className='m-3 flex text-[#CCFF00] items-center gap-3'>Shop Now <img src={rightarrow}/></button>
+            <button className='m-3 flex text-[#CCFF00] items-center gap-3'>Shop Now <img src={rightarrow} alt=''/></button>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default function FlashSale() {
         <div className='bg-gray-100 p-3'>
           <div className='flex flex-col justify-center items-center'>
             <a href='./cart'>
-            <img src={stilletto}/>
+            <img src={stilletto} alt=''/>
             </a>
           </div>
           <div>
@@ -97,18 +97,18 @@ export default function FlashSale() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function FlashSale() {
         <div className='bg-gray-100 p-3'>
           <div className='flex flex-col justify-center items-center'>
             <a href='./cart'>
-            <img src={stilletto}/>
+            <img src={stilletto} alt=''/>
             </a>
           </div>
           <div>
@@ -132,18 +132,18 @@ export default function FlashSale() {
               <p className='font-bold'>&#8358;35000</p>
             </div>
             <div>
-              <img src = {ratings}/>
+              <img src = {ratings} alt=''/>
             </div>
           </div>
           <div className='flex flex-row gap-24 justify-around items-center p-4'>
             <div>
-              <button><img src = {like}/></button>
+              <button><img src = {like} alt=''/></button>
             </div>
             <div>
-              <button><img src = {cart}/></button>
+              <button><img src = {cart} alt=''/></button>
             </div>
             <div>
-              <button><img src = {addToCart}/></button>
+              <button><img src = {addToCart} alt=''/></button>
             </div>
           </div>
         </div>

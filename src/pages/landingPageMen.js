@@ -24,403 +24,393 @@ export default function LandingPageMen() {
       <div className='flex flex-col gap-5 lg:flex lg:flex-row lg:gap-40 md:flex md:flex-row md:gap-24'>
         <div className='m-1'>
           <a href='./home'>
-            <img src = {leftarrow}/>
+            <img src = {leftarrow} alt=''/>
           </a>
         </div>
         <div className='p-1.5'>
           <div>
-            <p className='text-2xl font-bold'>MEN’S SHOES: UP TO 60% OFF THIS WEEK</p>
+            <p className='text-2xl font-bold'>MEN'S SHOES: UP TO 60% OFF THIS WEEK</p>
           </div>
           <div>
-            <p>Find men's athletic sneakers you can wear whether your focus for the day is training or chilling. Effortlessly combine the best of function and fashion for greatness in every step</p>
+            <p>Find women's athletic sneakers you can wear whether your focus for the day is training or chilling. Effortlessly combine the best of function and fashion for greatness in every step</p>
           </div>
         </div>
       </div>
 
-      <div className='flex flex-col md:grid md:grid-cols-4 m-8 gap-3'>
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-            <a href='./cart'>
-            <img src={loafers}/>
-            </a>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+<div className='flex flex-col md:grid md:grid-cols-4 m-8 gap-3'>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={loafers} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-            <a href='./cart'>
-            <img src={stilletto}/>
-            </a>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={stilletto} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <a href='./cart'>
-          <img src={oldskoolvans}/>
-          </a>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={oldskoolvans} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <a href='./cart'>
-          <img src={oldskoolvans}/>
-          </a>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={oldskoolvans} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <a href='./cart'>
-          <img src={airforce}/>
-          </a>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={airforce} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <img src={basketball}/>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={basketball} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <img src={dunks}/>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={dunks} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <img src={dunks}/>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={dunks} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <img src={adidas}/>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={adidas} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <img src={heels}/>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={heels} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <img src={club99heels}/>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={club99heels} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
 
-        <div className='bg-gray-100 p-3'>
-          <div className='flex flex-col justify-center items-center'>
-          <img src={club99heels}/>
-          </div>
-          <div>
-            <p>Club 99 Heels</p>
-          </div>
-          <div>
-            <p>Classic office high heels</p>
-          </div>
-          <div className='flex flex-row justify-between'>
-            <div>
-              <p className='font-bold'>&#8358;35000</p>
-            </div>
-            <div>
-              <img src = {ratings}/>
-            </div>
-          </div>
-          <div className='flex flex-row gap-24 justify-around items-center p-4'>
-            <div>
-              <button><img src = {like}/></button>
-            </div>
-            <div>
-              <button><img src = {cart}/></button>
-            </div>
-            <div>
-              <button><img src = {addToCart}/></button>
-            </div>
-          </div>
-        </div>
-      </div> 
-      <div><Footer/></div>
+  <div className='bg-gray-100 p-3'>
+    <div className='flex flex-col justify-center items-center'>
+    <img src={club99heels} alt=''/>
+    </div>
+    <div>
+      <p>Club 99 Heels</p>
+    </div>
+    <div>
+      <p>Classic office high heels</p>
+    </div>
+    <div className='flex flex-row justify-between'>
+      <div>
+        <p className='font-bold'>&#8358;35000</p>
+      </div>
+      <div>
+        <img src = {ratings} alt=''/>
+      </div>
+    </div>
+    <div className='flex flex-row gap-24 justify-around items-center p-4'>
+      <div>
+        <button><img src = {like} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {cart} alt=''/></button>
+      </div>
+      <div>
+        <button><img src = {addToCart} alt=''/></button>
+      </div>
+    </div>
+  </div>
+</div> 
+<div><Footer/></div>
     </div>
   )
 }

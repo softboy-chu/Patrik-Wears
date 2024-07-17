@@ -34,7 +34,7 @@ export default function PlacedOrder() {
           </div>
           <div>
             <button>
-              <img src = {exitbtn}/>
+              <img src = {exitbtn} alt=''/>
             </button>
           </div>
         </div>

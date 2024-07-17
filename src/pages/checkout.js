@@ -35,7 +35,7 @@ export default function Checkout() {
           </div>
           <div>
             <button>
-              <img src = {exitbtn}/>
+              <img src = {exitbtn} alt=''/>
             </button>
           </div>
         </div>

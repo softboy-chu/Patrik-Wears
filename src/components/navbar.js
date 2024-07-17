@@ -20,109 +20,110 @@ export default function Navbar() {
   };
 
   return (
-    <div className='fixed w-full bg-white top-0 z-50 shadow-md'>
-        <div className='flex flex-row items-center justify-between m-6 '>
-      <div className='block bg-black'>
-        <p className='text-white text-xl p-4 font-bold text-center'>Patrik Wears</p>
-      </div>
+    <div className='fixed w-full bg-white top-0 z-50 shadow-md h-24 items-center'>
+      <div className='flex flex-row justify-between items-center just'>
+        <div className='lg:hidden md:hidden'>
+          <button onClick={toggleVisibility}>
+            <img src={menubtn} alt=''/>
+          </button>
+        </div>
+        <div className='flex justify-center items-center bg-black'>
+          <a href='./' className='text-white text-xl p-4 font-bold text-center'>Patrik Wears</a>
+        </div>
 
-      <div className='flex flex-row justify-around items-center gap-4 hidden lg:flex'>
-        <div>
-          <a className='text-black text-xl p-4 text-center' href='/men'>Men</a>
-        </div>
-        <div>
-          <a className='text-black text-xl p-4 text-center' href='./women'>Women</a>
-        </div>
-        <div>
-          <a className='text-black text-xl p-4 text-center' href='./children'>Kids</a>
-        </div>
-        <div className='bg-[#060606] p-3'>
-          <a className='text-white text-xl text-center' href='./ads'>Flash</a>
-        </div>
-        <div className='bg-[#060606] p-2'>
-          <a className='text-white text-xl text-center' href=''>Gbanjo</a>
-        </div>
-      </div>
-
-      <div className='rounded-full p-5 flex flex-row items-center justify-between gap-4 hidden lg:flex '>
-        <div className='flex flex-row bg-gray-100 items-center'>
-          {/* <input className='bg-gray-100 hidden md:flex lg:flex p-4' placeholder='Search'/> */}
-          {/* <SearchBox /> */}
+        <div className='hidden lg:flex lg:flex-row justify-around items-center gap-4'>
           <div>
-            <a href=''>
-              <img src={search} alt='search-icon'/>
-            </a>
+            <a className='text-black text-xl p-4 text-center' href='/men'>Men</a>
+          </div>
+          <div>
+            <a className='text-black text-xl p-4 text-center' href='./women'>Women</a>
+          </div>
+          <div>
+            <a className='text-black text-xl p-4 text-center' href='./children'>Kids</a>
+          </div>
+          <div className='bg-[#060606] p-3'>
+            <a className='text-white text-xl text-center' href='./flashsale'>Flash</a>
+          </div>
+          <div className='bg-[#060606] p-2'>
+            <a className='text-white text-xl text-center' href='./'>Gbanjo</a>
           </div>
         </div>
 
-        <div>
-          <a href=''>
-            <img src={shape} alt='shape-icon'/>
-          </a>
+        <div className='rounded-full p-5 flex flex-row items-center justify-between gap-4 lg:flex '>
+        <div className='flex flex-row bg-gray-100 items-center'>
+          <input className='bg-gray-100 hidden md:flex lg:flex p-4' placeholder='Search...'/>
+          {/* <SearchBox /> */}
+          <div>
+            <button>
+              <img src={search} alt=''/>
+            </button>
+          </div>
         </div>
 
-        <div>
+        <div className='hidden lg:flex md:flex'>
+          <button>
+            <img src={shape} alt=''/>
+          </button>
+        </div>
+
+        <div className='hidden lg:flex md:flex'>
           <Link to='/cart'>
           <button>
-            <img src={like} alt='like-icon'/>
+            <img src={like} alt=''/>
           </button>
           </Link>
         </div>
 
         <div>
-          <a href='./cart'>
-            <img src={cart} alt='cart-icon'/>
-          </a>
+          <button>
+            <img src={cart} alt=''/>
+          </button>
         </div>
       </div>
 
-      <div className='lg:hidden'>
-        <button onClick={toggleVisibility}>
-          <img src={menubtn} alt='menu-button'/>
-        </button>
-      </div>
+      
 
       {isVisible && (
         <Portal>
-          <div className='fixed top-0 left-0 w-1/2 h-full bg-white z-50 flex flex-col items-center'>
+          <div className='fixed top-20 left-0 w-full h-full bg-white z-50 flex flex-col items-start animate-fadeIn font-semibold text-justify pt-10 leading-10'>
             <div className=''>
               
             </div>
             <div className='p-4'>
-              <a href='./'>
+              <button className='uppercase'>
                 <p>Home</p>
-              </a>
+              </button>
             </div>
             <div className='p-4'>
-              <a href='./men'>
+              <button className='uppercase'>
                 <p>Men</p>
-              </a>
+              </button>
             </div>
             <div className='p-4'>
-              <a href='./women'>
+              <button className='uppercase'>
                 <p>Women</p>
-              </a>
+              </button>
             </div>
             <div className='p-4'>
-              <a href='./children'>
+              <button className='uppercase'>
                 <p>Children</p>
-              </a>
+              </button>
             </div>
             <div className='p-4'>
-              <a href='./flashprice'>
+              <button className='uppercase'>
                 <p>Flash</p>
-              </a>
+              </button>
             </div>
             <div className='p-4'>
-              <a href=''>
+              <button className='uppercase'>
                 <p>Gbanjo</p>
-              </a>
+              </button>
             </div>
           </div>
         </Portal>
       )}
     </div>
-    </div>
+  </div>
   );
 }
 
