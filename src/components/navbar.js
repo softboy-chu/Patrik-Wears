@@ -52,7 +52,7 @@ export default function Navbar() {
         <div className='rounded-full p-5 flex flex-row items-center justify-between gap-4 lg:flex '>
         <div className='flex flex-row bg-gray-100 items-center'>
           <input className='bg-gray-100 hidden md:flex lg:flex p-4' placeholder='Search...'/>
-          {/* <SearchBox /> */}
+          {/* \<><SearchBox /></> */}
           <div>
             <button>
               <img src={search} alt=''/>
@@ -90,14 +90,18 @@ export default function Navbar() {
               
             </div>
             <div className='p-4'>
+              <Link to='/'>
               <button className='uppercase'>
                 <p>Home</p>
               </button>
+              </Link>
             </div>
             <div className='p-4'>
+              <Link to='./men'>
               <button className='uppercase'>
                 <p>Men</p>
               </button>
+              </Link>
             </div>
             <div className='p-4'>
               <button className='uppercase'>

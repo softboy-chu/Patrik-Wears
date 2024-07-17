@@ -22,8 +22,8 @@ export default function LandingPageMen() {
       <div><Navbar /></div>
 
       <div className='flex flex-col gap-5 lg:flex lg:flex-row lg:gap-40 md:flex md:flex-row md:gap-24'>
-        <div className='m-1'>
-          <a href='./home'>
+        <div className='m-1 mt-28'>
+          <a href='./'>
             <img src = {leftarrow} alt=''/>
           </a>
         </div>
